@@ -1,0 +1,10 @@
+.ToDoItem {
+  list-style: none;
+  margin-bottom: 12px;
+  &__checked {
+    text-decoration: line-through;
+  }
+  &__checkbox {
+    margin-right: 8px;
+  }
+}

@@ -1,0 +1,9 @@
+.App {
+  width: 35em;
+  margin: 100px auto;
+  font-family: "Merriweather", serif;
+  font-size: 16px;
+  &__title {
+    font-size: 40px;
+  }
+}
