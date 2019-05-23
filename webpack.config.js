@@ -1,6 +1,4 @@
 const path = require("path");
-const postcssCSSNext = require("postcss-cssnext");
-const postcssNested = require("postcss-nested");
 
 module.exports = {
   entry: { main: "./src/app.js" },
@@ -33,20 +31,7 @@ module.exports = {
             options: { importLoaders: 1, sourceMap: true }
           },
           {
-            loader: "postcss-loader",
-            options: {
-              sourceMap: true,
-              plugins: [
-                postcssNested(),
-                postcssCSSNext({
-                  features: {
-                    autoprefixer: {
-                      grid: false
-                    }
-                  }
-                })
-              ]
-            }
+            loader: "postcss-loader"
           }
         ]
       }

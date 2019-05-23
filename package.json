@@ -4,29 +4,29 @@
   "license": "MIT",
   "scripts": {
     "build": "webpack --mode=production",
-    "dev":
-      "webpack --watch --mode=development & webpack-dev-server --mode=development --open"
+    "dev": "webpack --watch --mode=development & webpack-dev-server --mode=development --open"
   },
   "dependencies": {
-    "react": "^16.4.0",
-    "react-dom": "^16.4.0"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "devDependencies": {
-    "autoprefixer": "^8.5.0",
-    "babel-core": "^6.26.3",
-    "babel-loader": "^7.1.4",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-react": "^6.24.1",
-    "babel-preset-stage-2": "^6.24.1",
-    "css-loader": "^0.28.11",
-    "postcss": "^6.0.22",
-    "postcss-cssnext": "^3.1.0",
-    "postcss-import": "^11.1.0",
-    "postcss-loader": "^2.1.5",
-    "postcss-nested": "^3.0.0",
-    "style-loader": "^0.21.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.0.0",
+    "@babel/preset-react": "^7.0.0",
+    "autoprefixer": "^9.5.1",
+    "babel-loader": "^8.0.0",
+    "css-loader": "^2.1.1",
+    "cssnano": "^4.1.10",
+    "postcss": "^7.0.16",
+    "postcss-import": "^12.0.1",
+    "postcss-loader": "^3.0.0",
+    "postcss-nested": "^4.1.2",
+    "postcss-preset-env": "^6.6.0",
+    "style-loader": "^0.23.1",
     "webpack": "^4.8.3",
-    "webpack-cli": "^2.1.4",
+    "webpack-cli": "^3.3.2",
     "webpack-dev-server": "^3.1.4",
     "webpack-livereload-plugin": "^2.1.1"
   }
